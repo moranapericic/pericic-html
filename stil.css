@@ -1,0 +1,109 @@
+.navbar-brand{
+            font-family:'Oswald typeface', monospace;
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+        .button{
+            background-color: #E8D0B4;
+            border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+        }
+        .boja{
+            background-color: #E8D0B4;
+        }
+        .slika{
+            z-index: -1;
+        }
+        .relative{
+            position:relative;
+        }
+        .absolute{
+            position: absolute;
+top:100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+        }
+        .buton{
+            border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+        }
+        footer{
+            margin-top:100px;
+        }
+        h1{
+            font-size:100px;
+            text-align: center;
+        }
+        .jew{
+            font-size:40px;
+            text-align: center;
+        }
+        .botun{
+            background-color: #E8D0B4;
+           border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+            margin-top:20px;
+        }
+        footer{
+            text-decoration: none;
+            padding:70px;
+             background-image: linear-gradient( rgba(233,208,180,0), rgba(233,208,180));
+        }
+        .tekstfuter{
+            text-decoration: none;
+            color: black;
+            font-size:20px;
+            
+        }
+@media screen and (max-width: 950px) {
+    h1{
+        font-size:40px;
+    }
+    .jew{
+        font-size:20px;
+    }
+    .shop{
+        font-size:40px;
+    }
+}
+#slikica{
+    padding-top:50px; 
+    padding-bottom:50px; 
+    padding-left:150px; 
+    padding-right:50px; 
+}
+@media screen and (max-width: 768px) {
+    #slikica{
+        padding-top:0px; 
+    padding-bottom:0px; 
+    padding-left:0px; 
+    padding-right:0px; 
+    }
+}
+span{
+   text-decoration-color:white;
+}
